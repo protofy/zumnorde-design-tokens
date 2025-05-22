@@ -152,11 +152,11 @@
   --color-text-alerts-alert-success: var(--color-turquoise-shade700);
   --color-text-textlink-default: var(--color-anthracite-shade900);
   --color-text-textlink-hover: var(--color-anthracite-shade700);
-  --color-textlink-active: var(--color-blue-shade800);
-  --color-sale: var(--color-red-shade700);
-  --color-highlight: var(--color-turquoise-shade700);
-  --color-highlight-on-bg-highlight: var(--color-turquoise-shade800);
-  --color-ai: var(--color-purple-shade800);
+  --color-text-textlink-active: var(--color-blue-shade800);
+  --color-text-sale: var(--color-red-shade700);
+  --color-text-highlight: var(--color-turquoise-shade700);
+  --color-text-highlight-on-bg-highlight: var(--color-turquoise-shade800);
+  --color-text-ai: var(--color-purple-shade800);
   --color-text-coupons-coupon: var(--color-blue-shade800);
   --color-bg-surface-white: var(--color-white);
   --color-bg-surface-green: var(--color-green-shade200);

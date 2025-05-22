@@ -39,8 +39,8 @@ StyleDictionary.registerTransform({
     return token.name
       .replace("colors-primitive-tokens", "color")
       .replace("colors-semantic", "color")
-      .replace(regex, (_, __, p2) => {
-        return `color-${p2}`;
+      .replace(regex, (_, p1, p2) => {
+        return `${p1}${p2}`;
       });
   },
 });
