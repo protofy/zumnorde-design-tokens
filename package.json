@@ -1,0 +1,16 @@
+{
+  "name": "zumnorde-design-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "node --experimental-strip-types --experimental-transform-types ./build.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1",
+  "dependencies": {
+    "style-dictionary": "^5.0.0"
+  }
+}
