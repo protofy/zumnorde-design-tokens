@@ -87,7 +87,7 @@ const sd = new StyleDictionary({
     },
     js: {
       transformGroup: transformGroups.js,
-      transforms: ["name/kebab", "name/cleanup", "name/cleanup-js"],
+      transforms: ["name/kebab", "name/cleanup"],
       buildPath: "./build/js/",
       files: [
         {
