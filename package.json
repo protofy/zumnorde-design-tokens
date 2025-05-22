@@ -8,7 +8,7 @@
   },
   "exports": {
     "./variables": {
-      "import": "./build/js/variables.ts",
+      "import": "./build/js/variables.js",
       "types": "./build/js/variables.d.ts"
     }
   },
