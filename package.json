@@ -6,6 +6,12 @@
   "scripts": {
     "build": "node --experimental-strip-types --experimental-transform-types ./build.ts"
   },
+  "exports": {
+    "./variables": {
+      "import": "./build/js/variables.js",
+      "types": "./build/js/variables.d.ts"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
