@@ -174,8 +174,8 @@
   --color-bg-sale-secondary: var(--color-red-shade200);
   --color-bg-sale-tertiary: var(--color-red-shade100);
   --color-bg-sale-primary-light: var(--color-red-shade700);
-  --color-bg-fill-black: var(--color-black);
-  --color-bg-fill-dark: var(--color-anthracite-shade900);
+  --color-bg-fills-black: var(--color-black);
+  --color-bg-fills-dark: var(--color-anthracite-shade900);
   --color-bg-highlight-primary-light: var(--color-turquoise-shade700);
   --color-bg-highlight-secondary: var(--color-turquoise-shade200);
   --color-bg-highlight-tertiary: var(--color-turquoise-shade100);
