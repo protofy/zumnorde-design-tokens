@@ -10,10 +10,14 @@
     "./variables": {
       "import": "./build/js/variables.js",
       "types": "./build/js/variables.d.ts"
+    },
+    "./styles": {
+      "import": "./build/css/variables.css"
     }
   },
   "files": [
-    "build/js"
+    "build/js",
+    "build/css"
   ],
   "keywords": [],
   "author": "",
