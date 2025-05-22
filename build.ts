@@ -88,10 +88,10 @@ const sd = new StyleDictionary({
     js: {
       transformGroup: transformGroups.js,
       transforms: ["name/kebab", "name/cleanup", "name/cleanup-js"],
-      buildPath: "./build/ts/",
+      buildPath: "./build/js/",
       files: [
         {
-          destination: "variables.ts",
+          destination: "variables.js",
           format: "default-export",
         },
       ],
