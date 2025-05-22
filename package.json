@@ -12,6 +12,9 @@
       "types": "./build/js/variables.d.ts"
     }
   },
+  "files": [
+    "build/js"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
