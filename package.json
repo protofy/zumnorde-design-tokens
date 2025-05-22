@@ -11,9 +11,7 @@
       "import": "./build/js/variables.js",
       "types": "./build/js/variables.d.ts"
     },
-    "./styles": {
-      "import": "./build/css/variables.css"
-    }
+    "./variables.css": "./build/css/variables.css"
   },
   "files": [
     "build/js",
