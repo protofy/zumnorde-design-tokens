@@ -37,8 +37,8 @@ StyleDictionary.registerTransform({
     const regex = /(color-(?:[a-z0-9-]*?))\b([a-z]+)-\2\b/g;
 
     return token.name
-      .replace("colors-primitive-tokens", "color")
-      .replace("colors-semantic", "color")
+      .replace("primitives-", "")
+      .replace("semantic-", "")
       .replace(regex, (_, p1, p2) => {
         return `${p1}${p2}`;
       });
