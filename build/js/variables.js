@@ -179,6 +179,7 @@ export default {
 "color-bg-sale-secondary": "#ffc9c2",
 "color-bg-sale-tertiary": "#ffeae8",
 "color-bg-sale-primary-light": "#9e1b09",
+"color-bg-sale-sunny": "#fc953f",
 "color-bg-black": "#000000",
 "color-bg-highlight-primary-light": "#008080",
 "color-bg-highlight-secondary": "#b6fff9",
