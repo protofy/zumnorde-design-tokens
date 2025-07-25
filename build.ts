@@ -39,18 +39,10 @@ StyleDictionary.registerTransform({
     return token.name
       .replace("primitives-", "")
       .replace("semantic-", "")
+      .replace("typography-styles", "typography")
       .replace(regex, (_, p1, p2) => {
         return `${p1}${p2}`;
       });
-  },
-});
-
-StyleDictionary.registerTransform({
-  type: "name",
-  name: `name/cleanup-js`,
-  transitive: true,
-  transform: (token) => {
-    return token.name.replace("color-", "");
   },
 });
 
