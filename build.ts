@@ -40,6 +40,7 @@ StyleDictionary.registerTransform({
       .replace("primitives-", "")
       .replace("semantic-", "")
       .replace("typography-styles", "typography")
+      .replace("spacing", "spacings")
       .replace(regex, (_, p1, p2) => {
         return `${p1}${p2}`;
       });
